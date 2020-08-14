@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="money.css" type="text/css">
+    <title></title>
+</head>
+<body>
+
+    <audio id="music" autoplay="autoplay">
+        <source src="audio/casino1.mp3" type="audio/mp3">
+    </audio>
+    <div id="container">
+        <div id="money">
+            <div class="bill b1"></div>
+            <div class="bill b2"></div>
+            <div class="bill b3"></div>
+            <div class="bill b4"></div>
+            <div class="bill b5"></div>
+            <div class="bill b6"></div>
+            <div class="bill b7"></div>
+            <div class="bill b8"></div>
+            <div class="bill b9"></div>
+            <div class="bill b10"></div>
+            <div class="bill b11"></div>
+            <div class="bill b12"></div>
+            <div class="bill b13"></div>
+            <div class="bill b14"></div>
+            <div class="bill b15"></div>
+            <div class="bill b16"></div>
+            <div class="bill b17"></div>
+            <div class="bill b18"></div>
+            <div class="bill b19"></div>
+        </div>
+    </div>
+    <div id="img-div">
+        <img class="main-img" src="BJ.png" />
+    </div> <h1 align="center" id="text-area" style="display:none">WELCOME TO BLACKJACK  <span style="color:red">&hearts;</span> &spades;<span style="color:red"> &diams;</span> &clubs;</h1>
+    <h2 id="copyright">&copy; Navneet Singh</h2>
+    <h1 align="center" id="result-area" style="color:goldenrod"></h1>
+
+
+
+    <button id="new-game-button">New Deal!</button>
+    <select id="deal-amount">
+        <option value="10">$10</option>
+        <option value="50">$50</option>
+        <option value="100">$100</option>
+        <option value="1000">$1000</option>
+
+    </select>
+
+    <div id="main-div">
+        <div id="dealer"></div><br />
+        <div id="player"></div>
+
+
+        <div id="button-div">
+            <button id="hit-button">Hit</button>
+            <button id="stand-button">Stand</button>
+
+        </div>
+        <div id="new-game-div">
+            <button id="new-game">New Deal!</button>
+            <select id="deal-amount2">
+                <option value="10">$10</option>
+                <option value="50">$50</option>
+                <option value="100">$100</option>
+                <option value="1000">$1000</option>
+
+            </select>
+        </div>
+        <div id="score-div">
+
+        </div>
+    </div>
+
+    <footer style="background-image: url('money_background.png')" >
+       <img src="money_background.png"/>
+    </footer>
+</body>
+</html>
+<script src="Script.js"></script>

@@ -1,0 +1,130 @@
+﻿body {
+    position: relative;
+    background-color: ;
+}
+
+h1 {
+    color: dimgray;
+    font-family:'Microsoft Sans Serif';
+}
+
+h2 {
+    color: darkgoldenrod;
+    margin-left: 40%;
+    margin-right: 35%;
+}
+
+.card {
+    width: 86px;
+    height: 135px;
+    padding: 10px;
+    border: solid 1px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 23pt;
+    text-align: center;
+    margin: 3px;
+    border: solid 1px;
+}
+
+#main-div 
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkred;
+    position: relative;
+    padding: 30px;
+    display: none;
+    border-radius: 34px;
+    padding-left: 39%;
+    padding-bottom: 7%;
+}
+
+#score-div {
+    position: absolute;
+    left: 9%;
+    top: 25%;
+    color: lightgoldenrodyellow;
+    font-size: 23px;
+}
+
+button {
+    background-color: #e7e7e7;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#button-div {
+    position: absolute;
+    left: 41%;
+    bottom: 3%;
+}
+
+#new-game-button {
+    margin-left: 38%;
+    margin-right: auto;
+}
+}
+
+.new-game {
+    position: absolute;
+    right: 567px;
+    top: 130%;
+}
+#card-red {
+    color: red;
+    border: 1px solid black;
+}
+
+
+.main-img {
+    margin-left: 25%;
+    margin-right: auto;
+  
+}
+
+#card-extra{
+    background-image:url('card-background.webp');
+    background-size:cover;
+}
+
+span{
+    font-size:44px;
+}
+#deal-amount {
+    background-color: #e7e7e7;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#deal-amount2 {
+    background-color: #e7e7e7;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#new-game-div {
+    display: inherit;
+    position: absolute;
+    left: 80px;
+    bottom: 19%;
+}
